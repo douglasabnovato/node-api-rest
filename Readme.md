@@ -1,5 +1,5 @@
-#NodeJS e API
-#Rocketseat
+# NodeJS e API
+# Rocketseat
 
 Aula 1 . O que é API e NodeJS
 a. javascript para Frondend e Backend
