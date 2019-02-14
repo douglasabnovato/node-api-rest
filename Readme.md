@@ -1,5 +1,8 @@
 # NodeJS e API
-# Rocketseat
+
+## Atualização: 14 de fevereiro de 2019 - 17:14
+## Criação: 08 de fevereiro de 2019
+## Prática : @douglasabnovato
 
 Aula 1 . O que é API e NodeJS
 a. javascript para Frondend e Backend
@@ -29,3 +32,5 @@ a. rodar servidor
 b. realizar conexão
 
 Aula 8 
+
+:. Do curso NodeJS. Por Rocketseat : https://rocketseat.com.br/
