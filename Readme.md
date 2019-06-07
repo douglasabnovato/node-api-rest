@@ -48,8 +48,6 @@
 - windows 10 home não possui "Hyper -v", por isso, problema com virtualização.
 - máquina virtual , docker tools, prompt
 - utilizando virtualbox + docker tools
-
-### Aula 7 . Conectando Database
 - ```docker``` 
 - ```docker run --name mongodbrs -p 27017:27017 -d mongo```
 - ```docker ps```
@@ -58,6 +56,9 @@
 1. ```docker ps a``` : saber imagens que estão pausadas
 2. ```docker start mongodb``` : ou mongodbrs : nome das minhas conexões
 3. ```docker ps``` : para verificar qual conexão está rodando
+
+### Aula 7 . Conectando Database
+- ```npm install mongoose``` : código javascript para usar bd, ao invés de SQL.
 
 ### Aula 8 . Criando Model de produto
 
