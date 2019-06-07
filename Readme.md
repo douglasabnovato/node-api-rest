@@ -53,7 +53,7 @@
 - ```docker``` 
 - ```docker run --name mongodbrs -p 27017:27017 -d mongo```
 - ```docker ps```
-- Robot 3D
+- Robot 3T
 - depois de fechar o notebook :
 1. ```docker ps a``` : saber imagens que estão pausadas
 2. ```docker start mongodb``` : ou mongodbrs : nome das minhas conexões
