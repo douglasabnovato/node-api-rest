@@ -15,21 +15,33 @@
 ![Nodejs](/images/nodejs.png)
 
 ### Aula 1 . O que é API e NodeJS
-a. javascript para Frondend e Backend
+- javascript para Frondend e Backend
 
 ### Aula 2 . Instalando NodeJS
-a. node -v, npm -v, mkdir node-api, cd node-api
-b. npm init
-c. npm install express
+- node -v, npm -v, mkdir node-api, cd node-api
+- npm init
+- npm install express
 
 ### Aula 3 . Criando a estrtura
 
 ### Aula 4 . Criando a primeira rota
+- utilizando o **express**
+- server.js
+- `node server.js`
+- http://localhost:3001/
 
 ### Aula 5 . Utilizando Nodemon
-a. npm install -D nodemon
-b. node server.js
-c. npm run dev
+- npm install -D nodemon
+- node server.js
+- npm run dev
+- package.json/dependencies:
+```json
+"dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "mongose": "0.0.2-security"
+  }
+```
 
 ### Aula 6 . Instalando MongoDB
 a. docker : máquina de conteinerização
