@@ -44,14 +44,14 @@
 ```
 
 ### Aula 6 . Instalando MongoDB
-a. docker : máquina de conteinerização
-b. windows 10 home não possui "Hyper -v", por isso, problema com virtualização.
-c. máquina virtual , docker tools, prompt
-d. utilizando virtualbox + docker tools
+- docker : máquina de conteinerização
+- windows 10 home não possui "Hyper -v", por isso, problema com virtualização.
+- máquina virtual , docker tools, prompt
+- utilizando virtualbox + docker tools
 
 ### Aula 7 . Conectando Database
-a. rodar servidor
-b. realizar conexão
+- rodar servidor
+- realizar conexão
 
 ### Aula 8 . Criando Model de produto
 
