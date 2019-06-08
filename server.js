@@ -12,7 +12,7 @@ mongoose.connect(
 
 //primeira rota
 app.get('/', (req, res) => {
-    res.send('Hello Team ROCKETSEAT !!!');
+    res.send('Hello ROCKETSEAT !!!');
 });
 
 app.listen(3001);

@@ -3,6 +3,7 @@
 const Mixed = require('../schema/mixed');
 const get = require('../helpers/get');
 const util = require('util');
+const utils = require('../utils');
 
 /*!
  * ignore
@@ -81,6 +82,11 @@ class MongooseMap extends Map {
     if (this.$__parent != null && this.$__parent.$__) {
       this.$__parent.markModified(this.$__path + '.' + key);
     }
+  }
+
+  delete(key) {
+    this.set(key, undefined);
+    super.delete(key);
   }
 
   toBSON() {
@@ -186,6 +192,9 @@ function checkValidKey(key) {
   }
   if (key.includes('.')) {
     throw new Error(`Mongoose maps do not support keys that contain ".", got "${key}"`);
+  }
+  if (utils.specialProperties.has(key)) {
+    throw new Error(`Mongoose maps do not support reserved key name "${key}"`);
   }
 }
 

@@ -20,8 +20,9 @@ const util = require('util');
  * @api private
  */
 
-function NativeCollection() {
+function NativeCollection(name, options) {
   this.collection = null;
+  this.Promise = options.Promise || Promise;
   MongooseCollection.apply(this, arguments);
 }
 
@@ -115,9 +116,10 @@ const syncCollectionMethods = { watch: true };
 function iter(i) {
   NativeCollection.prototype[i] = function() {
     const collection = this.collection;
-    const args = arguments;
+    const args = Array.from(arguments);
     const _this = this;
     const debug = get(_this, 'conn.base.options.debug');
+    const lastArg = arguments[arguments.length - 1];
 
     // If user force closed, queueing will hang forever. See #5664
     if (this.opts.$wasForceClosed) {
@@ -127,8 +129,18 @@ function iter(i) {
       if (syncCollectionMethods[i]) {
         throw new Error('Collection method ' + i + ' is synchronous');
       }
-      this.addQueue(i, arguments);
-      return;
+      if (typeof lastArg === 'function') {
+        this.addQueue(i, args);
+        return;
+      }
+      return new this.Promise((resolve, reject) => {
+        this.addQueue(i, [].concat(args).concat([(err, res) => {
+          if (err != null) {
+            return reject(err);
+          }
+          resolve(res);
+        }]));
+      });
     }
 
     if (debug) {

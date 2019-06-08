@@ -14,6 +14,7 @@ module.exports = applyHooks;
  */
 
 applyHooks.middlewareFunctions = [
+  'deleteOne',
   'save',
   'validate',
   'remove',
@@ -40,12 +41,22 @@ function applyHooks(model, schema, options) {
   const objToDecorate = options.decorateDoc ? model : model.prototype;
 
   model.$appliedHooks = true;
-  for (let i = 0; i < schema.childSchemas.length; ++i) {
-    const childModel = schema.childSchemas[i].model;
+  for (const key of Object.keys(schema.paths)) {
+    const type = schema.paths[key];
+    let childModel = null;
+    if (type.$isSingleNested) {
+      childModel = type.caster;
+    } else if (type.$isMongooseDocumentArray) {
+      childModel = type.Constructor;
+    } else {
+      continue;
+    }
+
     if (childModel.$appliedHooks) {
       continue;
     }
-    applyHooks(childModel, schema.childSchemas[i].schema, options);
+
+    applyHooks(childModel, type.schema, options);
     if (childModel.discriminators != null) {
       const keys = Object.keys(childModel.discriminators);
       for (let j = 0; j < keys.length; ++j) {
@@ -61,7 +72,7 @@ function applyHooks(model, schema, options) {
 
   const middleware = schema.s.hooks.
     filter(hook => {
-      if (hook.name === 'updateOne') {
+      if (hook.name === 'updateOne' || hook.name === 'deleteOne') {
         return !!hook['document'];
       }
       if (hook.name === 'remove') {
@@ -86,6 +97,8 @@ function applyHooks(model, schema, options) {
     createWrapper('validate', objToDecorate.$__validate, null, kareemOptions);
   objToDecorate.$__remove = middleware.
     createWrapper('remove', objToDecorate.$__remove, null, kareemOptions);
+  objToDecorate.$__deleteOne = middleware.
+    createWrapper('deleteOne', objToDecorate.$__deleteOne, null, kareemOptions);
   objToDecorate.$__init = middleware.
     createWrapperSync('init', objToDecorate.$__init, null, kareemOptions);
 
