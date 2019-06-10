@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const requireDir = require('require-dir');
+const requireDir = require('require-dir');//erro depois desse install 
 
 //iniciando o app
 const app = express();
@@ -12,7 +12,7 @@ mongoose.connect(
 );
 requireDir('./src/models');
 
-const Product = mongoose.model('Produt');
+const Product = mongoose.model('Product');
 
 //primeira rota
 app.get('/', (req, res) => {
