@@ -6,13 +6,16 @@
 
 ## Ferramentas : 
 
+![Rocketseat](/images/logo-rocketseat.png)
+![Docker](/images/logo-docker.png)
+![Nodejs](/images/nodejs.png)
 ![ReactJS](/images/logo-reactjs.jpg)
 ![Git](/images/logo-git.png)
 ![Github](/images/logo-github.png)
 ![HTML/CSS/Javascript](/images/logo-html-css-js.jpeg)
 ![VSCode](/images/logo-VSCode.png)
 ![Yarn](/images/logo-yarn.png)
-![Nodejs](/images/nodejs.png)
+
 
 ### Aula 1 . O que é API e NodeJS
 - javascript para Frondend e Backend
@@ -54,7 +57,7 @@
 - ```docker ps```
 - Robot 3T
 - depois de fechar o notebook :
-1. ```docker ps a``` : saber imagens que estão pausadas
+1. ```docker ps -a``` : saber imagens que estão pausadas
 2. ```docker start mongodb``` : ou mongodbrs : nome das minhas conexões
 3. ```docker ps``` : para verificar qual conexão está rodando
 - abre : http://localhost:27017/
