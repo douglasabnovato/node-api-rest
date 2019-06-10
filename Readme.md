@@ -66,6 +66,8 @@
 - ```npm install mongoose``` : código javascript para usar bd, ao invés de SQL.
 
 ### Aula 8 . Criando Model de produto
+- Model de produto : www.producthunt.com
+- biblioteca require-dir : `require('./src/models/Product');` : com isso, não há necessidade desse require em todos os models do projeto.
 
 ### Aula 9 . Reestruturação de arquivos
 
