@@ -12,17 +12,9 @@ mongoose.connect(
 );
 requireDir('./src/models');
 
-const Product = mongoose.model('Product');
 
-//primeira rota
-app.get('/', (req, res) => {
-    Product.create({
-        title: 'React Native',
-        description: 'Build Native apps with React',
-        url: ' http://github.com/facebook/react-native'
-    })
+//rotas
+app.use('/api', require('./src/routes'));
 
-    return res.send('ROCKETSEAT - Semana Omnistack!!!');
-});
 
 app.listen(3001);

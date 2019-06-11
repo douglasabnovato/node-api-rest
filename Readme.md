@@ -8,14 +8,14 @@
 
 ![Rocketseat](/images/logo-rocketseat.png)
 ![Docker](/images/logo-docker.png)
-![Nodejs](/images/nodejs.png)
+![Robo 3T](/images/logo-robo3t.png)
+![Nodejs](/images/logo-nodejs.png)
 ![ReactJS](/images/logo-reactjs.jpg)
 ![Git](/images/logo-git.png)
 ![Github](/images/logo-github.png)
 ![HTML/CSS/Javascript](/images/logo-html-css-js.jpeg)
 ![VSCode](/images/logo-VSCode.png)
 ![Yarn](/images/logo-yarn.png)
-
 
 ### Aula 1 . O que é API e NodeJS
 - javascript para Frondend e Backend
@@ -71,6 +71,7 @@
 - require-dir : `npm install require-dir`
 
 ### Aula 9 . Reestruturação de arquivos
+- Controllers : Product Controller : `ProductController.js`
 
 ### Aula 10 . Utilizando Insomnia
 
