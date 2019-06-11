@@ -74,6 +74,7 @@
 - Controllers : Product Controller : `ProductController.js`
 
 ### Aula 10 . Utilizando Insomnia
+- Insomnia 
 
 ### Aula 11 . Criaçaõ de registro
 
