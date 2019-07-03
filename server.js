@@ -4,6 +4,7 @@ const requireDir = require('require-dir');//erro depois desse install
 
 //iniciando o app
 const app = express();
+app.use(express.json());
 
 //iniciando o db
 mongoose.connect(
