@@ -77,7 +77,7 @@
 - Insomnia 
 
 ### Aula 11 . Criaçaõ de registro
-- registros
+- registros : rever aqui
 
 ### Aula 12 . CRUD
 
