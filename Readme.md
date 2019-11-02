@@ -17,11 +17,13 @@
 ![VSCode](/images/logo-VSCode.png)
 ![Yarn](/images/logo-yarn.png)
 
-### Aula 1 . O que é API e NodeJS
-- javascript para Frondend e Backend
+### Aula 1 . O que é API Rest e NodeJS
+- javascript para Frondend, com ReactJS e React Native, e agora para Backend com NodeJS.
+- API Rest : separa o backend, servidor e banco de dados, do frondend.
+- **NodeJS**, **MongoDB**, **Express**
 
-### Aula 2 . Instalando NodeJS
-- node -v, npm -v, mkdir node-api, cd node-api
+### Aula 2 . Instalando NodeJS- API Rest : separa o backend do frondend.
+- `node -v`, npm -v, mkdir node-api, cd node-api
 - npm init
 - npm install express
 
