@@ -64,19 +64,19 @@ app.listen(3001);
 ```
 
 ### Aula 6 . Instalando MongoDB
-- docker : máquina de conteinerização
-- windows 10 home não possui "Hyper -v", por isso, problema com virtualização.
-- máquina virtual , docker tools, prompt
+- Docker : máquina de conteinerização
+- **ATENÇÃO** : no `windows 10 home` não possui `Hyper -v`, por isso, problema com virtualização.
+- utilizar a máquina virtual , **Docker tools**, prompt
 - utilizando virtualbox + docker tools
 - ```docker``` 
 - ```docker run --name mongodbrs -p 27017:27017 -d mongo```
 - ```docker ps```
-- Robot 3T
+- **Robot 3T**
 - depois de fechar o notebook :
 1. ```docker ps -a``` : saber imagens que estão pausadas
 2. ```docker start mongodb``` : ou mongodbrs : nome das minhas conexões
 3. ```docker ps``` : para verificar qual conexão está rodando
-- abre : http://localhost:27017/
+- abre : `http://localhost:27017/`
 
 ### Aula 7 . Conectando Database
 - ```npm install mongoose``` : código javascript para usar bd, ao invés de SQL.
