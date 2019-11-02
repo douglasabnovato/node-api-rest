@@ -35,9 +35,20 @@
 
 ### Aula 4 . Criando a primeira rota
 - utilizando o **express**
-- server.js
-- `node server.js`
-- http://localhost:3001/
+- criar o arquivo `server.js`
+- executar `node server.js`
+- `http://localhost:3001/`
+- código teste para o servidor
+````
+const express = require('express');
+
+const app = express();
+app.get("/", (req, res) => {
+    res.send("Hello Rocketseat");
+});
+
+app.listen(3001);
+````
 
 ### Aula 5 . Utilizando Nodemon
 - npm install -D nodemon
