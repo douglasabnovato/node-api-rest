@@ -72,6 +72,7 @@ app.listen(3001);
 - `docker`
 - `docker run --name mongodbrs -p 27017:27017 -d mongo`
 - `docker ps`<br>
+
 **Robot 3T**
 - depois de fechar o notebook :
 1. `docker ps -a` : saber imagens que estão pausadas
