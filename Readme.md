@@ -103,7 +103,10 @@ mongoose.connect(
 - inserimos o primeiro registro dentro do MongoDB
 
 ### Aula 9 . Reestruturação de arquivos
-- Controllers : Product Controller : `ProductController.js`
+- organização, criação, atualização, deleção e listagem de cada produto.
+- criar `/src/routes.js`
+- funcinando `http://localhost:3001/api`
+- criar `/src/controllers/ProductController.sj`
 
 ### Aula 10 . Utilizando Insomnia
 - Insomnia 
