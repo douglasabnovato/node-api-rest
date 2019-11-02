@@ -70,15 +70,20 @@ app.listen(3001);
 - utilizar a máquina virtual , Docker tools, prompt
 - utilizando virtualbox + docker tools
 - `docker`
+- `docker pull mongo`
 - `docker run --name mongodbrs -p 27017:27017 -d mongo`
-- `docker ps`<br>
+- `docker ps`
+- acessar no navegador `http://localhost:27017/` retorna : `It looks like you are trying to access MongoDB over HTTP on the native driver port.`
+<br>
 
 **Robot 3T**
+- abrir programa `Robot 3T`
+- Na janela MongoDB Connections, para criar nova conexão: `name \ docker` e `address \ localhost: 27017`, ou conectar com a já criada: `docker`.
 - depois de fechar o notebook :
 1. `docker ps -a` : saber imagens que estão pausadas
 2. `docker start mongodb` : ou mongodbrs : nome das minhas conexões
 3. `docker ps` : para verificar qual conexão está rodando
-- abre : `http://localhost:27017/`
+- abre : `http://localhost:27017/`, 
 
 ### Aula 7 . Conectando Database
 - ```npm install mongoose``` : código javascript para usar bd, ao invés de SQL.
