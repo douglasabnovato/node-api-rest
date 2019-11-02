@@ -39,7 +39,7 @@
 - executar `node server.js`
 - `http://localhost:3001/`
 - código teste para o servidor
-````
+````javascript
 const express = require('express');
 
 const app = express();
@@ -51,10 +51,9 @@ app.listen(3001);
 ````
 
 ### Aula 5 . Utilizando Nodemon
-- npm install -D nodemon
-- node server.js
-- npm run dev
-- abre : http://localhost:3001/
+- `npm install -D nodemon`: instalar o Nodemon no ambiente de desenvolvimento
+- ao invés de `node server.js`, usar o `npm run dev`, e assim, reinicializa após alguma alteração.
+- abre : `http://localhost:3001/`
 - package.json/dependencies:
 ```json
 "dependencies": {
