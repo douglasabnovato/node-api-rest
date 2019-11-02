@@ -22,10 +22,14 @@
 - API Rest : separa o backend, servidor e banco de dados, do frondend.
 - **NodeJS**, **MongoDB**, **Express**
 
-### Aula 2 . Instalando NodeJS- API Rest : separa o backend do frondend.
-- `node -v`, npm -v, mkdir node-api, cd node-api
-- npm init
-- npm install express
+### Aula 2 . Instalando NodeJS - API Rest : separa o backend do frondend.
+- gerenciador de pacotes para instalar o NodeJS, package manager: `chocolatey`
+- `node -v`
+- `npm -v`
+- `mkdir node-api`
+- `cd node-api`
+- `npm init`
+- `npm install express`
 
 ### Aula 3 . Criando a estrtura
 
