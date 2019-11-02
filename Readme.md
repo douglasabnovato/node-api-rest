@@ -100,6 +100,7 @@ mongoose.connect(
 - Model de produto : www.producthunt.com
 - biblioteca require-dir : `require('./src/models/Product');` : com isso, não há necessidade desse require em todos os models do projeto.
 - require-dir : `npm install require-dir`
+- inserimos o primeiro registro dentro do MongoDB
 
 ### Aula 9 . Reestruturação de arquivos
 - Controllers : Product Controller : `ProductController.js`
