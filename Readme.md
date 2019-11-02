@@ -26,12 +26,12 @@
 - gerenciador de pacotes para instalar o NodeJS, package manager: `chocolatey`
 - `node -v`
 - `npm -v`
-- `mkdir node-api`
-- `cd node-api`
-- `npm init`
-- `npm install express`
 
 ### Aula 3 . Criando a estrtura
+- `mkdir node-api`
+- `cd node-api`
+- `npm init -y`
+- `npm install express`
 
 ### Aula 4 . Criando a primeira rota
 - utilizando o **express**
