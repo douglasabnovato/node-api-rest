@@ -87,6 +87,14 @@ app.listen(3001);
 
 ### Aula 7 . Conectando Database
 - `npm install mongoose` : código javascript para usar bd, ao invés de SQL.
+- código no server.js
+````javascript
+const mongoose = require('mongoose');
+mongoose.connect(
+    'mongodb://localhost:27017/nodeapi',
+    { useNewUrlParser: true }
+);
+````
 
 ### Aula 8 . Criando Model de produto
 - Model de produto : www.producthunt.com
