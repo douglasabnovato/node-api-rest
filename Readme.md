@@ -106,7 +106,7 @@ mongoose.connect(
 - organização, criação, atualização, deleção e listagem de cada produto.
 - criar `/src/routes.js`
 - funcinando `http://localhost:3001/api`
-- criar `/src/controllers/ProductController.sj`
+- criar `/src/controllers/ProductController.js`
 
 ### Aula 10 . Utilizando Insomnia
 - Insomnia 
