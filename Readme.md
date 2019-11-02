@@ -64,7 +64,7 @@ app.listen(3001);
 ```
 
 ### Aula 6 . Instalando MongoDB
-**Docker tools**
+**Docker Quickstar Terminal**
 - Docker : máquina de conteinerização
 - **ATENÇÃO** : no `windows 10 home` não possui `Hyper -v`, por isso, problema com virtualização.
 - utilizar a máquina virtual , Docker tools, prompt
