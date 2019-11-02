@@ -74,9 +74,9 @@ app.listen(3001);
 - `docker ps`<br>
 **Robot 3T**
 - depois de fechar o notebook :
-1. ```docker ps -a``` : saber imagens que estão pausadas
-2. ```docker start mongodb``` : ou mongodbrs : nome das minhas conexões
-3. ```docker ps``` : para verificar qual conexão está rodando
+1. `docker ps -a` : saber imagens que estão pausadas
+2. `docker start mongodb` : ou mongodbrs : nome das minhas conexões
+3. `docker ps` : para verificar qual conexão está rodando
 - abre : `http://localhost:27017/`
 
 ### Aula 7 . Conectando Database
