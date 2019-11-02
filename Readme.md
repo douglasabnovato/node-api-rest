@@ -86,7 +86,7 @@ app.listen(3001);
 - abre : `http://localhost:27017/`, 
 
 ### Aula 7 . Conectando Database
-- ```npm install mongoose``` : código javascript para usar bd, ao invés de SQL.
+- `npm install mongoose` : código javascript para usar bd, ao invés de SQL.
 
 ### Aula 8 . Criando Model de produto
 - Model de produto : www.producthunt.com
