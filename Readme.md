@@ -69,9 +69,9 @@ app.listen(3001);
 - **ATENÇÃO** : no `windows 10 home` não possui `Hyper -v`, por isso, problema com virtualização.
 - utilizar a máquina virtual , Docker tools, prompt
 - utilizando virtualbox + docker tools
-- ```docker``` 
-- ```docker run --name mongodbrs -p 27017:27017 -d mongo```
-- ```docker ps```
+- `docker`
+- `docker run --name mongodbrs -p 27017:27017 -d mongo`
+- `docker ps`<br>
 **Robot 3T**
 - depois de fechar o notebook :
 1. ```docker ps -a``` : saber imagens que estão pausadas
