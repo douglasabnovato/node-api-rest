@@ -134,6 +134,8 @@ mongoose.connect(
 - destroy : deleção : insomnia - Delete - DELETE
 
 ### Aula 13 . Paginação de Lista
+- listagem dos objetos
+- mongoose paginate : `npm install mongoose-paginate`
 
 ### Aula 14 . Adicionando CORS
 

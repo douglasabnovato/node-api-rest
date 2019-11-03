@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "mongoose": "^5.5.13",
+    "mongoose-paginate": "^5.0.3",
     "mongose": "0.0.2-security",
     "require-dir": "^1.2.0"
   },
