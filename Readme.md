@@ -139,7 +139,8 @@ mongoose.connect(
 - insomnia - Index - `{{ base_url  }}/products?page=2` : retorna a segunda página de objetos 
 
 ### Aula 14 . Adicionando CORS
-
+- permitir acessar essa API de outros endereços
+- permitir acesso por outros domínios
 
 :. Do curso `NodeJS`. <br/>
 Por Diego Fernandes - Rocketseat : https://rocketseat.com.br/
