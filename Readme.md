@@ -1,6 +1,6 @@
 # NodeJS e API
 
-## Atualização: 02 de novembro de 2019 - 12:09
+## Atualização: 03 de novembro de 2019 - 13:59
 ## Criação: 08 de fevereiro de 2019
 ## Prática : @douglasabnovato
 
@@ -8,6 +8,7 @@
 
 ![Rocketseat](/images/logo-rocketseat.png)
 ![Docker](/images/logo-docker.png)
+![Insomnia](/images/logo-insomnia.jpg)
 ![Robo 3T](/images/logo-robo3t.png)
 ![Nodejs](/images/logo-nodejs.png)
 ![ReactJS](/images/logo-reactjs.jpg)
