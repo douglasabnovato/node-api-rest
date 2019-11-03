@@ -108,6 +108,7 @@ mongoose.connect(
 - criar `/src/routes.js`
 - funcinando `http://localhost:3001/api`
 - criar `/src/controllers/ProductController.js`
+- acesso no link : `http://localhost:3001/api/products`
 
 ### Aula 10 . Utilizando Insomnia
 - Insomnia 
