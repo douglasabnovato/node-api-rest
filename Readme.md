@@ -116,7 +116,15 @@ mongoose.connect(
 - Manage Environments - base_url : `http://localhost:3001/api`
 
 ### Aula 11 . Criaçaõ de registro
-- registros : rever aqui
+- server.js : `app.use(express.json());`
+- insomnia - new request - Create - Post - Json
+````json
+{
+	"title":"ReactJS",
+	"description":"Biblioteca para criar aplicações interativas com Javascript",
+	"url":"http://github.com/facebook/react"
+}
+````
 
 ### Aula 12 . CRUD
 
