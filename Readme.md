@@ -113,6 +113,7 @@ mongoose.connect(
 ### Aula 10 . Utilizando Insomnia
 - Insomnia : workspace : `starter-nodejs`
 - new request - Index - GET : `http://localhost:3001/api/products`
+- Manage Environments - base_url : `http://localhost:3001/api`
 
 ### Aula 11 . Criaçaõ de registro
 - registros : rever aqui
