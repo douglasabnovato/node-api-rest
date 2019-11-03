@@ -127,6 +127,11 @@ mongoose.connect(
 ````
 
 ### Aula 12 . CRUD
+- index : listagem : insomnia - Index - GET
+- store : criação : insomnia - Create - Post
+- Criar detalhe : insomnia - Show - GET
+- Criar atualização
+- Criar delete
 
 ### Aula 13 . Paginação de Lista
 
