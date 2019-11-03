@@ -111,7 +111,8 @@ mongoose.connect(
 - acesso no link : `http://localhost:3001/api/products`
 
 ### Aula 10 . Utilizando Insomnia
-- Insomnia 
+- Insomnia : workspace : `starter-nodejs`
+- new request - Index - GET : `http://localhost:3001/api/products`
 
 ### Aula 11 . Criaçaõ de registro
 - registros : rever aqui
