@@ -136,6 +136,7 @@ mongoose.connect(
 ### Aula 13 . Paginação de Lista
 - listagem dos objetos
 - mongoose paginate : `npm install mongoose-paginate`
+- insomnia - Index - `{{ base_url  }}/products?page=2` : retorna a segunda página de objetos 
 
 ### Aula 14 . Adicionando CORS
 
