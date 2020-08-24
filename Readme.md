@@ -24,8 +24,9 @@
 - [x] 1.2. API Rest : separa o back-end, servidor e banco de dados, do frond-end.
 - [x] 1.3. **NodeJS**, **MongoDB**, **Express**
 
-### 2. Instalando NodeJS - API Rest : separa o backend do frondend.
+### 2. Instalando NodeJS
 
+- [x] 2. API Rest separa o back-end do frond-end.
 - [x] 2.1. Instalar o NodeJS a partir do site oficial: LTS 12.18.3
 - [x] 2.2. Instalar o NPM, um constrole de versão: v6.14.6
 - [x] 2.3. `chocolatey`, `node -v`, `npm -v`
