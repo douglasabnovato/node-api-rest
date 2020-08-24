@@ -105,6 +105,7 @@ mongoose.connect(
 - [x] 7.4. Para verificar se está conectado corretamente, o servidor não está apresentando nenhum erro no terminal.
 
 ### 8. Criando Model de produto
+
 - [x] 8.1. O Model na arquitetura MVC representa a estrutura de dados no nosso db.
 - [x] 8.2. Model de produto do nosso www.producthunt.com
 - [x] 8.3. Estrutura de pastas: src/models/Product.js
@@ -115,11 +116,12 @@ mongoose.connect(
 - [x] 8.8. require-dir : `npm install require-dir`
 
 ### 9. Reestruturação de arquivos
-- organização, criação, atualização, deleção e listagem de cada produto.
-- criar `/src/routes.js`
-- funcinando `http://localhost:3001/api`
-- criar `/src/controllers/ProductController.js`
-- acesso no link : `http://localhost:3001/api/products`
+
+- [x] 9.1. organização, criação, atualização, deleção e listagem de cada produto.
+- [x] 9.2. criar `/src/routes.js`
+- [x] 9.3. funcinando `http://localhost:3001/api`
+- [x] 9.4. criar `/src/controllers/ProductController.js`
+- [x] 9.5. acesso no link : `http://localhost:3001/api/products`
 
 ### 10. Utilizando Insomnia
 - Insomnia : workspace : `starter-nodejs`
