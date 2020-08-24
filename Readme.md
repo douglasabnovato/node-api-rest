@@ -131,8 +131,9 @@ mongoose.connect(
 - [x] 10.4. Manage Environments - base_url : `http://localhost:3001/api`
 
 ### 11. Criaçaõ de registro
-- server.js : `app.use(express.json());`
-- insomnia - new request - Create - Post - Json
+
+- [x] 11.1. server.js : `app.use(express.json());`
+- [x] 11.2. insomnia - new request - Create - Post - Json
 ````json
 {
 	"title":"ReactJS",
