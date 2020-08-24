@@ -40,10 +40,10 @@
 ### 4. Criando a primeira rota
 
 - [x] 4.1. Utilizando o **express**
-- criar o arquivo `server.js`
-- executar `node server.js`
-- `http://localhost:3001/`
-- código teste para o servidor
+- [x] 4.2. criar o arquivo `server.js`
+- [x] 4.3. executar `node server.js`
+- [x] 4.4. `http://localhost:3001/`
+- [x] 4.5. código teste para o servidor
 ````javascript
 const express = require('express');
 
