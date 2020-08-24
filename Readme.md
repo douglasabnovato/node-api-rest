@@ -143,11 +143,12 @@ mongoose.connect(
 ````
 
 ### 12. CRUD
-- index : listagem : insomnia - Index - GET
-- show : exibição : insomnia - Show - GET
-- store : criação : insomnia - Create - POST
-- update : atualização : insomnia - Update - PUT
-- destroy : deleção : insomnia - Delete - DELETE
+
+- [x] 12.1. index : listagem : insomnia - Index - GET
+- [x] 12.2. show : exibição : insomnia - Show - GET
+- [x] 12.3. store : criação : insomnia - Create - POST
+- [x] 12.4. update : atualização : insomnia - Update - PUT
+- [x] 12.5. destroy : deleção : insomnia - Delete - DELETE
 
 ### 13. Paginação de Lista
 - listagem dos objetos
