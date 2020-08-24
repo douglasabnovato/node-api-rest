@@ -90,10 +90,10 @@ app.listen(3001);
 - [x] 6.6.2. Na janela MongoDB Connections do Robot 3T, para criar nova conexão: `name \ docker` e `address \ localhost: 27017`, ou conectar com a já criada: `docker`. 
 - [x] 6.6.3. Duas bases de dados: admin e local 
 
-
 ### 7. Conectando Database
-- `npm install mongoose` : código javascript para usar bd, ao invés de SQL.
-- código no server.js
+
+- [x] 7.1. Instalar a dependência do mongodb: `npm install mongoose`
+- [x] 7.2. Código no server.js
 ````javascript
 const mongoose = require('mongoose');
 mongoose.connect(
@@ -101,6 +101,8 @@ mongoose.connect(
     { useNewUrlParser: true }
 );
 ````
+- [x] 7.3. O mongoose permite usar somente javascript para a criação do db, ao invés de usar comandos SQL.
+- [x] 7.4. Para verificar se está conectado corretamente, o servidor não está apresentando nenhum erro no terminal.
 
 ### 8. Criando Model de produto
 - Model de produto : www.producthunt.com
