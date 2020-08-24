@@ -18,25 +18,25 @@
 ![VSCode](/images/logo-VSCode.png)
 ![Yarn](/images/logo-yarn.png)
 
-### Aula 1 . O que é API Rest e NodeJS
+### 1. O que é API Rest e NodeJS
 
 - [x] 1.1. Javascript para Frond-end, com ReactJS e React Native, e agora para Backend com NodeJS.
 - [x] 1.2. API Rest : separa o back-end, servidor e banco de dados, do frond-end.
 - [x] 1.3. **NodeJS**, **MongoDB**, **Express**
 
-### Aula 2 . Instalando NodeJS - API Rest : separa o backend do frondend.
+### 2. Instalando NodeJS - API Rest : separa o backend do frondend.
 
 - gerenciador de pacotes para instalar o NodeJS, package manager: `chocolatey`
 - `node -v`
 - `npm -v`
 
-### Aula 3 . Criando a estrtura
+### 3. Criando a estrtura
 - `mkdir node-api`
 - `cd node-api`
 - `npm init -y`
 - `npm install express`
 
-### Aula 4 . Criando a primeira rota
+### 4. Criando a primeira rota
 - utilizando o **express**
 - criar o arquivo `server.js`
 - executar `node server.js`
@@ -53,7 +53,7 @@ app.get("/", (req, res) => {
 app.listen(3001);
 ````
 
-### Aula 5 . Utilizando Nodemon
+### 5. Utilizando Nodemon
 - `npm install -D nodemon`: instalar o Nodemon no ambiente de desenvolvimento
 - ao invés de `node server.js`, usar o `npm run dev`, e assim, reinicializa após alguma alteração.
 - abre : `http://localhost:3001/`
@@ -66,7 +66,7 @@ app.listen(3001);
   }
 ```
 
-### Aula 6 . Instalando MongoDB
+### 6. Instalando MongoDB
 **Docker Quickstar Terminal**
 - Docker : máquina de conteinerização
 - **ATENÇÃO** : no `windows 10 home` não possui `Hyper -v`, por isso, problema com virtualização.
@@ -88,7 +88,7 @@ app.listen(3001);
 3. `docker ps` : para verificar qual conexão está rodando
 - abre : `http://localhost:27017/`, 
 
-### Aula 7 . Conectando Database
+### 7. Conectando Database
 - `npm install mongoose` : código javascript para usar bd, ao invés de SQL.
 - código no server.js
 ````javascript
@@ -99,25 +99,25 @@ mongoose.connect(
 );
 ````
 
-### Aula 8 . Criando Model de produto
+### 8. Criando Model de produto
 - Model de produto : www.producthunt.com
 - biblioteca require-dir : `require('./src/models/Product');` : com isso, não há necessidade desse require em todos os models do projeto.
 - require-dir : `npm install require-dir`
 - inserimos o primeiro registro dentro do MongoDB
 
-### Aula 9 . Reestruturação de arquivos
+### 9. Reestruturação de arquivos
 - organização, criação, atualização, deleção e listagem de cada produto.
 - criar `/src/routes.js`
 - funcinando `http://localhost:3001/api`
 - criar `/src/controllers/ProductController.js`
 - acesso no link : `http://localhost:3001/api/products`
 
-### Aula 10 . Utilizando Insomnia
+### 10. Utilizando Insomnia
 - Insomnia : workspace : `starter-nodejs`
 - new request - Index - GET : `http://localhost:3001/api/products`
 - Manage Environments - base_url : `http://localhost:3001/api`
 
-### Aula 11 . Criaçaõ de registro
+### 11. Criaçaõ de registro
 - server.js : `app.use(express.json());`
 - insomnia - new request - Create - Post - Json
 ````json
@@ -128,19 +128,19 @@ mongoose.connect(
 }
 ````
 
-### Aula 12 . CRUD
+### 12. CRUD
 - index : listagem : insomnia - Index - GET
 - show : exibição : insomnia - Show - GET
 - store : criação : insomnia - Create - POST
 - update : atualização : insomnia - Update - PUT
 - destroy : deleção : insomnia - Delete - DELETE
 
-### Aula 13 . Paginação de Lista
+### 13. Paginação de Lista
 - listagem dos objetos
 - mongoose paginate : `npm install mongoose-paginate`
 - insomnia - Index - `{{ base_url  }}/products?page=2` : retorna a segunda página de objetos 
 
-### Aula 14 . Adicionando CORS
+### 14. Adicionando CORS
 - permitir acessar essa API de outros endereços
 - permitir acesso por outros domínios
 - CORS : `npm install cors`
