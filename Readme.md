@@ -151,9 +151,10 @@ mongoose.connect(
 - [x] 12.5. destroy : deleção : insomnia - Delete - DELETE
 
 ### 13. Paginação de Lista
-- listagem dos objetos
-- mongoose paginate : `npm install mongoose-paginate`
-- insomnia - Index - `{{ base_url  }}/products?page=2` : retorna a segunda página de objetos 
+
+- [x] 13.1. listagem dos objetos
+- [x] 13.2. mongoose paginate : `npm install mongoose-paginate`
+- [x] 13.3. insomnia - Index - `{{ base_url  }}/products?page=2` : retorna a segunda página de objetos 
 
 ### 14. Adicionando CORS
 - permitir acessar essa API de outros endereços
