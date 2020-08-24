@@ -70,17 +70,18 @@ app.listen(3001);
 ```
 
 ### 6. Instalando MongoDB
+
 **Docker Quickstar Terminal**
-- Docker : máquina de conteinerização
-- **ATENÇÃO** : no `windows 10 home` não possui `Hyper -v`, por isso, problema com virtualização.
-- utilizar a máquina virtual , Docker tools, prompt
-- utilizando virtualbox + docker tools
-- `docker`
-- `docker pull mongo`
-- `docker run --name mongodbrs -p 27017:27017 -d mongo`
-- `docker ps`
-- acessar no navegador `http://localhost:27017/` retorna : `It looks like you are trying to access MongoDB over HTTP on the native driver port.`
-<br>
+- [x] 6.1. Docker: máquina de conteinerização
+- [x] 6.2.1. **ATENÇÃO**: no `windows 10 home` não possui `Hyper -v`, por isso, problema com virtualização.
+- [x] 6.2.2. utilizar a máquina virtual , Docker tools, prompt
+- [x] 6.2.3. utilizando virtualbox + docker tools : Docker Quickstart Terminal
+- [x] 6.2.3.1. `docker`
+- [x] 6.2.3.2. `docker pull mongo`
+- [x] 6.2.3.3. `docker run --name mongodbrs -p 27017:27017 -d mongo`
+- [x] 6.2.3.4. `docker ps`
+- [x] 6.3.1. acessar no navegador `http://localhost:27017/` 
+- [x] 6.3.2. retorna : `It looks like you are trying to access MongoDB over HTTP on the native driver port.`<br>
 
 **Robot 3T**
 - abrir programa `Robot 3T`
