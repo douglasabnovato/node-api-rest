@@ -124,9 +124,11 @@ mongoose.connect(
 - [x] 9.5. acesso no link : `http://localhost:3001/api/products`
 
 ### 10. Utilizando Insomnia
-- Insomnia : workspace : `starter-nodejs`
-- new request - Index - GET : `http://localhost:3001/api/products`
-- Manage Environments - base_url : `http://localhost:3001/api`
+
+- [x] 10.1. Insomnia: testar rotas. Visualizar as respostas dos dados.
+- [x] 10.2. Insomnia: workspace : `starter-nodejs`
+- [x] 10.3. new request - Index - GET : `http://localhost:3001/api/products`
+- [x] 10.4. Manage Environments - base_url : `http://localhost:3001/api`
 
 ### 11. Criaçaõ de registro
 - server.js : `app.use(express.json());`
