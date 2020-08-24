@@ -26,19 +26,20 @@
 
 ### 2. Instalando NodeJS
 
-- [x] 2. API Rest separa o back-end do frond-end.
 - [x] 2.1. Instalar o NodeJS a partir do site oficial: LTS 12.18.3
 - [x] 2.2. Instalar o NPM, um constrole de versão: v6.14.6
 - [x] 2.3. `chocolatey`, `node -v`, `npm -v`
 
 ### 3. Criando a estrtura
-- `mkdir node-api`
-- `cd node-api`
-- `npm init -y`
-- `npm install express`
+
+- [x] 3.1. Objetivo: desenvolver a api
+- [x] 3.2. `mkdir node-api`, `cd node-api`, 
+- [x] 3.3. `npm init -y`: package.json : guardar as informações das depências
+- [x] 3.4. `npm install express`
 
 ### 4. Criando a primeira rota
-- utilizando o **express**
+
+- [x] 4.1. Utilizando o **express**
 - criar o arquivo `server.js`
 - executar `node server.js`
 - `http://localhost:3001/`
