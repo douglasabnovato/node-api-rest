@@ -105,10 +105,14 @@ mongoose.connect(
 - [x] 7.4. Para verificar se está conectado corretamente, o servidor não está apresentando nenhum erro no terminal.
 
 ### 8. Criando Model de produto
-- Model de produto : www.producthunt.com
-- biblioteca require-dir : `require('./src/models/Product');` : com isso, não há necessidade desse require em todos os models do projeto.
-- require-dir : `npm install require-dir`
-- inserimos o primeiro registro dentro do MongoDB
+- [x] 8.1. O Model na arquitetura MVC representa a estrutura de dados no nosso db.
+- [x] 8.2. Model de produto do nosso www.producthunt.com
+- [x] 8.3. Estrutura de pastas: src/models/Product.js
+- [x] 8.4. Construindo nosso model em Product.js
+- [x] 8.5. Dar um require: `require('./src/models/Product');` no server.js
+- [x] 8.6. A biblioteca require-dir assim, não há necessidade de criar manualmente esse require em todos os models do projeto. Porque teremos muitos models que precisarão de require. 
+- [x] 8.7. require-dir: `require('./src/models/');` 
+- [x] 8.8. require-dir : `npm install require-dir`
 
 ### 9. Reestruturação de arquivos
 - organização, criação, atualização, deleção e listagem de cada produto.
