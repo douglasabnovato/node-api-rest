@@ -1,6 +1,6 @@
 ## NodeJS e API
 
-#### Atualização: 03 de novembro de 2019 - 13:59
+#### Atualização: 24 de agosto de 2020 - DONE
 #### Criação: 08 de fevereiro de 2019
 #### Prática : @douglasabnovato
 
