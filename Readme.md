@@ -26,9 +26,9 @@
 
 ### 2. Instalando NodeJS - API Rest : separa o backend do frondend.
 
-- gerenciador de pacotes para instalar o NodeJS, package manager: `chocolatey`
-- `node -v`
-- `npm -v`
+- [x] 2.1. Instalar o NodeJS a partir do site oficial: LTS 12.18.3
+- [x] 2.2. Instalar o NPM, um constrole de versão: v6.14.6
+- [x] 2.3. `chocolatey`, `node -v`, `npm -v`
 
 ### 3. Criando a estrtura
 - `mkdir node-api`
