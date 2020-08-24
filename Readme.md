@@ -157,9 +157,10 @@ mongoose.connect(
 - [x] 13.3. insomnia - Index - `{{ base_url  }}/products?page=2` : retorna a segunda página de objetos 
 
 ### 14. Adicionando CORS
-- permitir acessar essa API de outros endereços
-- permitir acesso por outros domínios
-- CORS : `npm install cors`
 
-:. Do curso `NodeJS`. <br/>
+- [x] 14.1. Permitir acessar essa API de outros endereços
+- [x] 14.2. permitir acesso por outros domínios
+- [x] 14.3. CORS : `npm install cors` 
+
+:. De Douglas A B Novato - @douglasabnovato <br/>
 Por Diego Fernandes - Rocketseat : https://rocketseat.com.br/
