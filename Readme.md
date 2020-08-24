@@ -56,10 +56,11 @@ app.listen(3001);
 ````
 
 ### 5. Utilizando Nodemon
-- `npm install -D nodemon`: instalar o Nodemon no ambiente de desenvolvimento
-- ao invés de `node server.js`, usar o `npm run dev`, e assim, reinicializa após alguma alteração.
-- abre : `http://localhost:3001/`
-- package.json/dependencies:
+- [x] 5.1. `npm install -D nodemon`: instalar o Nodemon no ambiente de desenvolvimento
+- [x] 5.2. ao invés de `node server.js`, usar o `npm run dev` 
+- [x] 5.3. reinicializar o servidor após alguma alteração
+- [x] 5.4. abre : `http://localhost:3001/`
+- [x] 5.5. package.json/dependencies:
 ```json
 "dependencies": {
     "express": "^4.16.4",
