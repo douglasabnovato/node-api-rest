@@ -1,8 +1,8 @@
-# NodeJS e API
+## NodeJS e API
 
-## Atualização: 03 de novembro de 2019 - 13:59
-## Criação: 08 de fevereiro de 2019
-## Prática : @douglasabnovato
+#### Atualização: 03 de novembro de 2019 - 13:59
+#### Criação: 08 de fevereiro de 2019
+#### Prática : @douglasabnovato
 
 ## Ferramentas : 
 
@@ -19,11 +19,13 @@
 ![Yarn](/images/logo-yarn.png)
 
 ### Aula 1 . O que é API Rest e NodeJS
-- javascript para Frondend, com ReactJS e React Native, e agora para Backend com NodeJS.
-- API Rest : separa o backend, servidor e banco de dados, do frondend.
-- **NodeJS**, **MongoDB**, **Express**
+
+- [x] 1.1. Javascript para Frond-end, com ReactJS e React Native, e agora para Backend com NodeJS.
+- [x] 1.2. API Rest : separa o back-end, servidor e banco de dados, do frond-end.
+- [x] 1.3. **NodeJS**, **MongoDB**, **Express**
 
 ### Aula 2 . Instalando NodeJS - API Rest : separa o backend do frondend.
+
 - gerenciador de pacotes para instalar o NodeJS, package manager: `chocolatey`
 - `node -v`
 - `npm -v`
@@ -141,6 +143,7 @@ mongoose.connect(
 ### Aula 14 . Adicionando CORS
 - permitir acessar essa API de outros endereços
 - permitir acesso por outros domínios
+- CORS : `npm install cors`
 
 :. Do curso `NodeJS`. <br/>
 Por Diego Fernandes - Rocketseat : https://rocketseat.com.br/
