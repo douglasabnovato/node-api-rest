@@ -1,22 +1,18 @@
-## NodeJS e API
+<h4 align="center"> 
+	🚧 NodeJS e API  🚀 em construção... 🚧
+</h4> 
 
-#### Atualização: 24 de agosto de 2020 - DONE
-#### Criação: 08 de fevereiro de 2019
-#### Prática : @douglasabnovato
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/douglasabnovato/node-api-rest?color=%2304D361">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/douglasabnovato/node-api-rest">
+  <a href="https://www.twitter.com/douglasabnovato/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%douglasabnovato%2Fnode-api-rest">
+  </a>
+</p>
 
-## Ferramentas : 
+## 💻 Sobre o projeto
 
-![Rocketseat](/images/logo-rocketseat.png)
-![Docker](/images/logo-docker.png)
-![Insomnia](/images/logo-insomnia.jpg)
-![Robo 3T](/images/logo-robo3t.png)
-![Nodejs](/images/logo-nodejs.png)
-![ReactJS](/images/logo-reactjs.jpg)
-![Git](/images/logo-git.png)
-![Github](/images/logo-github.png)
-![HTML/CSS/Javascript](/images/logo-html-css-js.jpeg)
-![VSCode](/images/logo-VSCode.png)
-![Yarn](/images/logo-yarn.png)
+♻️ NodeJS e API
 
 ### 1. O que é API Rest e NodeJS
 
@@ -160,7 +156,85 @@ mongoose.connect(
 
 - [x] 14.1. Permitir acessar essa API de outros endereços
 - [x] 14.2. permitir acesso por outros domínios
-- [x] 14.3. CORS : `npm install cors` 
+- [x] 14.3. CORS : `npm install cors`  
 
-:. De Douglas A B Novato - @douglasabnovato <br/>
-Por Diego Fernandes - Rocketseat : https://rocketseat.com.br/
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Css][css]: posicionamento, dimensionamento e muito mais
+- [Javascript][javascript]
+- [HTML][html]: estrutura e efeitos 
+- [React][reactjs]: os fundamentos, como state, props, components, ciclo de vida.
+- [Git][git]
+- [Github][github] 
+- [Yarn][yarn]
+- [Node.js][nodejs]  
+- [Docker](https://www.docker.com/)
+- [Insomnia](https://insomnia.rest/)
+- [Robo 3T](https://robomongo.org/)  
+
+## 🚀 Como executar o projeto
+
+Podemos considerar este projeto como sendo com uma parte:
+1. Back end 
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs]. 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+
+### 🧭 Rodando a aplicação web (Front End)
+
+```bash 
+# Clone este repositório
+$ git clone https://github.com/douglasabnovato/node-api-rest
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd node-api-rest
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3001
+
+```
+
+## 😯 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT.
+
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+
+[git]: https://git-scm.com/doc
+[github]: https://docs.github.com/en
+[nodejs]: https://nodejs.org/
+[typescript]: https://www.typescriptlang.org/
+[expo]: https://expo.io/
+[reactjs]: https://reactjs.org
+[rn]: https://facebook.github.io/react-native/
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[rs]: https://rocketseat.com.br 
+[css]: https://developer.mozilla.org/en-US/docs/Web/CSS 
+[html]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[javascript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript 
+
+Fonte - [Rocketseat - Starter](https://rocketseat.com.br/) 
